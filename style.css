@@ -81,10 +81,11 @@ body {
 }
 
 code {
-    display: block;
     padding: 25px 16px;
+    display: block;
     margin: 20px 0px;
     background-color: #73737316;
+    background-color: red;
     border-radius: 4px;
     margin-inline-start: 1.5rem;
     font-size: 0.9rem;
@@ -194,9 +195,17 @@ code {
     }
 }
 
-@media screen and (max-width){
+@media screen and (max-width: 500px){
     .main-section header {
         font-size: 1rem;
+    }
+
+    #navbar header {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 0.8rem;
     }
 
     .main-section p,li,code {
