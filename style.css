@@ -85,7 +85,6 @@ code {
     display: block;
     margin: 20px 0px;
     background-color: #73737316;
-    background-color: red;
     border-radius: 4px;
     margin-inline-start: 1.5rem;
     font-size: 0.9rem;
@@ -209,6 +208,6 @@ code {
     }
 
     .main-section p,li,code {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
